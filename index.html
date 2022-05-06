@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Amazone |Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" type="image" href="Resources/favicon.jpeg">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+ <!--card icon-->
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+
+    <script src='index.js'></script>
+</head>
+<body id="top" onload="start_dyimg()">
+
+<!------------------------------------------- Header -------------------------------------------->
+
+    <div class="first_div">
+        <div>
+            <img src="Resources/logo.png" id="logo">
+        </div>
+
+        <div>
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <div>
+            <p>deliver to <br> Egypt</p>
+        </div>
+
+     <!-------------------------------------------Search Area-------------------------------------->
+        <div style="width: 54%; background-color: white; box-sizing: border-box;">
+            <form action="">
+                <div class="search_Area">
+                    <select name="Select1" size="1" class="allcategory" style="border: none; text-align: center; width: 8%; height: 40px;background-color: #f3f3f3;">
+                        <option value="">All </option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saad">Saab</option>
+                        <option value="ford">Ford</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="aston">Aston Martin</option>
+                        <option value="alfa">Alfa Romeo</option>
+                    </select>
+
+                    <input type="text" class="searchinput" placeholder=" search ..." id="search" name="_search" style="margin-left: 0.5em; width: 81%;height: 40px; border: none;padding-left: 0.3em;">
+                    <button type="submit" value="Search" id="Gosearch" style="border: none; background-color: #febd69; width: 9%; height: 40px;"><i class="fa-solid fa-magnifying-glass" style="color: black; font-size: 1.3em !important;"></i></button>
+                
+                </div>
+              </form>
+        </div>
+
+        <div style="margin-left: 3em;">
+            <p>Hello, sign in <br> Accounts & Lists</p>
+        </div>
+
+        <div style="margin-left: 0.5em;">
+            <p>Returns <br> & Orders</p>
+        </div>
+
+        <div style="color: white; padding: 0.3em;">
+            <i class="fa-solid fa-cart-shopping" style="font-size: 2em; color: white; margin-left: 0.5em;"></i> Cart
+        </div>
+
+
+    </div> 
+
+    <div class="second_div">
+       <ul>
+           <li><i class="fa-solid fa-bars"></i> All</li>
+           <li>Today's Deals</li>
+           <li>Customer service</li>
+           <li>Registry</li>
+           <li>Gift Cards</li>
+           <li>Sell</li>
+           <li style="right: 1em !important;position: absolute; font-weight: bold;">Shop Mother's Day Gifts</li>
+       </ul>
+    </div>    
+
+<!------------------------------------------- Slider -------------------------------------------->
+  <!-------- image----- -->
+  <div class="dynamicpic">
+    <img id="frontimg" src="Resources/img1.jpg" class="img">
+  </div>
+    
+    <!----------- Arrow Buttons----------->
+    <div class="arrows">
+       <!-- Next -->
+    <button type="button" onclick ="nextarr()" class="arrnext" value="Next">
+    >  
+    </button>
+    <!-- Last -->
+    <button type="button" onclick="lastarr()" class="arrlast" value="Last">
+    <  
+    </button>
+    
+    </div>
+
+<!-------------------------------------------Products---------------------------------------------->
+<section class="thirdblock">
+
+    <span>
+        <p class="txtinblock"> Gaming Accessories</p>
+        <br>
+        <div class="inblock">
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Headset.jpg" height="80%" width="100%" style="position: inherit;"><br> Headset</span></a>
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Keyboard.jpg" height="80%" width="100%" style="position: inherit;"><br> Keyboard</span></a>
+        </div>
+
+        <div class="inblock">
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Mouse.jpg" height="80%" width="100%" style="position: inherit;"><br> Computer mice</span></a>
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Chair.jpg" height="80%" width="100%" style="position: inherit;"><br> chairs</span></a>
+        </div>
+
+        <div>
+            <br><br>
+            <a href="#">See More </a>
+        </div>
+
+    </span>
+
+    <span>
+        <p class="txtinblock"> Shop by Category</p>
+        <br>
+        <div class="inblock">
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/computers&accessories.jpg" height="80%" width="100%" style="position: inherit;"><br> Computers & Accessories</span></a>
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/videogames.jpg" height="80%" width="100%" style="position: inherit;"><br> Video Games</span></a>
+        </div>
+
+        <div class="inblock">
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Baby.jpg" height="80%" width="100%" style="position: inherit;"><br> Baby</span></a>
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Toys&games.jpg" height="80%" width="100%" style="position: inherit;"><br> Toys & Games</span></a>
+        </div>
+
+        <div>
+            <br><br>
+            <a href="#">Shop Now </a>
+        </div>
+
+    </span>
+
+    <span>
+        <p class="txtinblock"> Health & Personal Care</p><br>
+        <div>
+            <a href="#"><img src="Resources/HPCEssentials.jpg" style=" width: 99%; height: 300px;"></a>
+        </div>
+
+        <div>
+            <br>
+            <a href="#">Shop Now </a>
+        </div>
+
+    </span>
+
+    <span style="padding: 0; background-color: rgba(255, 255, 255, 0);">
+        <div style="background-color: white; height: 35%; text-align: center; padding: 2em 1em;">
+            <p class="txtinblock"> Sign in for the best experience </p><br><br>
+            <a href="#" style="background-color:#ffd814; padding: 0.6em 7em; border: none; border-radius: 0.7em;text-decoration: none; color: black; ">Sign in securly</a>
+            <!-- <a href="#"><button style="background-color:#ffd814; padding: 0.5em 3em; border: none; border-radius: 1em; width: 19em;">Sign in securly</button></a> -->
+        </div>
+<br>
+        <div style="height: 60%; text-align: center;">
+            <img src="Resources/shipover45million.jpg" height="100%">
+        </div>
+    </span>
+
+</section>
+
+<br><br>
+
+<section class="thirdblock" style="margin: 0;">
+    <span>
+        <p class="txtinblock"> Dresses</p>
+        <div>
+            <a href="#"><img src="Resources/dress.jpg" style=" width: 99%; height: 300px;"></a>
+        </div>
+
+        <div>
+            <br>
+            <a href="#">Shop Now </a>
+        </div>
+    </span>
+
+    <span>
+        <p class="txtinblock"> Shop Mother's Day Gifts</p>
+        <div>
+            <a href="#"><img src="Resources/MothersDay.jpg" style=" width: 99%; height: 300px;"></a>
+        </div>
+
+        <div>
+            <br>
+            <a href="#">Shop Now </a>
+        </div>
+    </span>
+
+    <span>
+        <p class="txtinblock"> Comfy styles for her</p>
+        <br>
+        <div class="inblock">
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Sweatshirt.jpg" height="80%" width="100%" style="position: inherit;"><br> Sweatshirts</span></a>
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Joggers.jpg" height="80%" width="100%" style="position: inherit;"><br> Joggers</span></a>
+        </div>
+
+        <div class="inblock">
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Cardigans.jpg" height="80%" width="100%" style="position: inherit;"><br> Cardigans</span></a>
+            <a href="#"  style="text-align: center; text-decoration: none; color: black;"><span style="position: inherit;"><img src="Resources/Tees.jpg" height="80%" width="100%" style="position: inherit;"><br> Easy tees</span></a>
+        </div>
+
+        <div>
+            <br><br>
+            <a href="#">See More </a>
+        </div>
+    </span>
+
+    <span>
+        <p class="txtinblock"> Computers & Accessories </p>
+        <div>
+            <a href="#"><img src="Resources/c&acc.jpg" style=" width: 99%; height: 300px;"></a>
+        </div>
+
+        <div>
+            <br>
+            <a href="#">Shop Now </a>
+        </div>
+    </span>
+
+    
+</section>
+
+
+<div class="scrolled_div">
+
+    <div style="height: 15%;"><p class="txtinblock"> International top sellers</p></div>
+    <div class="scrolled_items">
+        <a href="#"><img src="Resources/1.jpg"></a>
+        <a href="#"><img src="Resources/2.jpg"></a>
+        <a href="#"><img src="Resources/3.jpg"></a>
+        <a href="#"><img src="Resources/4.jpg"></a>
+        <a href="#"><img src="Resources/5.jpg"></a>
+        <a href="#"><img src="Resources/6.jpg"></a>
+        <a href="#"><img src="Resources/7.jpg"></a>
+        <a href="#"><img src="Resources/8.jpg"></a>
+        <a href="#"><img src="Resources/9.jpg"></a>
+        <a href="#"><img src="Resources/10.jpg"></a>
+        <a href="#"><img src="Resources/11.jpg"></a>
+        <a href="#"><img src="Resources/12.jpg"></a>
+    </div>
+</div>
+
+<div class="scrolled_div">
+
+    <div style="height: 15%;"><p class="txtinblock"> Frequently repurchased in Beauty and Personal Care</p></div>
+    <div class="scrolled_items">
+        <a href="#"><img src="Resources/a.jpg"></a>
+        <a href="#"><img src="Resources/b.jpg"></a>
+        <a href="#"><img src="Resources/c.jpg"></a>
+        <a href="#"><img src="Resources/a1.jpg"></a>
+        <a href="#"><img src="Resources/a2.jpg"></a>
+        <a href="#"><img src="Resources/a3.jpg"></a>
+        <a href="#"><img src="Resources/a4.jpg"></a>
+        <a href="#"><img src="Resources/a5.jpg"></a>
+        <a href="#"><img src="Resources/a6.jpg"></a>
+        <a href="#"><img src="Resources/a7.jpg"></a>
+        <a href="#"><img src="Resources/a8.jpg"></a>
+        <a href="#"><img src="Resources/a9.jpg"></a>
+        <a href="#"><img src="Resources/a10.jpg"></a>
+        <a href="#"><img src="Resources/b1.jpg"></a>
+        <a href="#"><img src="Resources/b2.jpg"></a>
+        <a href="#"><img src="Resources/b3.jpg"></a>
+    </div>
+</div>
+
+
+<!---------------------------------------------Footer------------------------------------------------->
+<a href="#top" style="text-decoration: none;">
+<div class="totop">
+     Back to tob
+</div>
+</a>
+<!-- ---------- -->
+
+<div style="background-color: #232f3e;">
+    <br><br><br>
+</div>
+
+
+<div class="firstfooter_container">
+
+    <div>
+        <p style="font-weight: 500; font-size: 1.5em; ">Get to Know Us</p>
+        <a href="#">Careers</a><br>
+        <a href="#">Blog</a><br>
+        <a href="#">About Amazon</a><br>
+        <a href="#">Investor Relations</a><br>
+        <a href="#">Amazon Devices</a><br>
+        <a href="#">Amazon Science</a><br>
+    </div>
+
+    <div>
+        <p style="font-weight: 500; font-size: 1.5em; ">Make Money with Us</p>
+        <a href="#">Sell products on Amazon</a><br>
+        <a href="#">Sell on Amazon Business</a><br>
+        <a href="#">Sell apps on Amazon</a><br>
+        <a href="#">Become an Affiliate</a><br>
+        <a href="#">Advertise Your Products</a><br>
+        <a href="#">Self-Publish with Us</a><br>
+        <a href="#">Host an Amazon Hub</a><br>
+        <a href="#">›See More Make Money with Us</a><br>
+    </div>
+
+    <div>
+        <p style="font-weight: 500; font-size: 1.5em; ">Amazon Payment Products</p>
+        <a href="#">Amazon Business Card</a><br>
+        <a href="#">Shop with Points</a><br>
+        <a href="#">Reload Your Balance</a><br>
+        <a href="#">Amazon Currency Converter</a><br>
+    </div>
+
+    <div>
+        <p style="font-weight: 500; font-size: 1.5em; ">Let Us Help You</p>
+        <a href="#">Amazon and COVID-19</a><br>
+        <a href="#">Your Account</a><br>
+        <a href="#">Your Orders</a><br>
+        <a href="#">Shipping Rates & Policies</a><br>
+        <a href="#">Returns & Replacements</a><br>
+        <a href="#">Manage Your Content and Devices</a><br>
+        <a href="#">Amazon Assistant</a><br>
+        <a href="#">Help</a><br>
+    </div>
+
+</div>
+
+
+<div style="background-color: #232f3e;">
+    <br><br><br>
+</div>
+
+<div style="background-color: #131a22;">
+    <br><br><br>
+</div>
+
+<div class="secondfooter">
+
+<!-- 1 -->
+    <div>
+
+        <div>
+            <a href="#">
+                <p >Amazon Music</p>
+                Stream millions ofsongs 
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Sell on Amazon</p>
+                Start a Selling Account
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Book Depository</p>
+                Books With Free Delivery Worldwide
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >IMDbPro</p>
+                Get Info Entertainment Professionals Need
+                <br>
+            </a>
+        </div>
+            <br>
+    </div>
+
+<!-- 2 -->
+    <div>
+        <div>
+            <a href="#">
+                <p >Amazon Advertising</p>
+                Find, attract, and engage customers 
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Amazon Business</p>
+                Everything For Your Business
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Box Office Mojo</p>
+                Find Movie <br>
+                Box Office Data
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Kindle Direct Publishing</p>
+                Indie Digital & Print Publishing <br>
+                Made Easy
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >eero WiFi</p>
+                Stream 4K Video in Every Room
+                <br>
+            </a>
+        </div>
+            <br>
+
+    </div>
+
+<!-- 3 -->
+    <div>
+
+        <div>
+            <a href="#">
+                <p >Amazon Drive</p>
+                Cloud storage from Amazon
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >AmazonGlobal</p>
+                Ship Orders <br>
+                Internationally
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >ComiXology</p>
+                Thousands of Digital Comics
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Prime Video Direct</p>
+                Video Distribution Made Easy
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Blink</p>
+                Smart Security for Every Home
+                <br>
+            </a>
+        </div>
+            <br>
+
+    </div>
+
+<!-- 4 -->
+    <div>
+
+        <div>
+            <a href="#">
+                <p >6pm</p>
+                Score deals on fashion brands
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Home Services</p>
+                Experienced <br>
+                Pros <br>
+                Happiness <br>
+                Guarantee
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >DPReview</p>
+                Digital <br>
+                Photography
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Shopbop</p>
+                Designer<br>
+                Fashion Brands
+                <br>
+            </a>            
+        </div>
+            <br>
+
+
+        <div>
+            <a href="#">
+                <p >Neighbors App</p>
+                Real-Time Crime
+                & Safety Alerts
+                <br>
+            </a>
+        </div>
+            <br>
+    </div>
+
+<!-- 5 -->
+    <div>
+        
+        <div>
+            <a href="#">
+                <p >AbeBooks</p>
+                Books, art & collectibles
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Amazon Ignite</p>
+                Sell your original <br>
+                Digital Educational <br>
+                Resources
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Fabric</p>
+                Sewing, Quilting & Knitting
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Woot!</p>
+                Deals and Shenanigans
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Amazon Subscription Boxes</p>
+                Top subscription boxes – right to your door
+                <br>
+            </a>
+        </div>
+            <br>
+
+    </div>
+
+<!-- 6 -->
+    <div>
+        <div>
+            <a href="#">
+                <p >ACX</p>
+                Audiobook<br>
+                Publishing<br>
+                Made Easy
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Amazon Web Services</p>
+                Scalable Cloud<br>
+                Computing Services
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Goodreads</p>
+                Book reviews & recommendations
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Zappos</p>
+                Shoes & Clothing
+                <br>
+            </a>
+        </div>
+            <br>
+            
+        <div>
+            <a href="#">
+                <p >PillPack</p>
+                Pharmacy Simplified
+                <br>
+            </a>
+        </div>
+            <br>
+    
+    </div>
+
+<!-- 7 -->
+    <div>
+
+        <div>
+            <a href="#">
+                <p >Alexa</p>
+                Actionable Analytics for the Web
+                <br>
+            </a>
+        </div>
+            <br>
+
+        <div>
+            <a href="#">
+                <p >Audible</p>
+                Listen to Books & Original<br>
+                Audio<br>
+                Performances
+                <br>
+            </a>
+        </div>
+            <br>
+        
+        <div>
+            <a href="#">
+                <p >IMDb</p>
+                Movies, TV & Celebrities
+                <br>
+            </a>
+        </div>
+            <br>
+    
+        <div>
+            <a href="#">
+                <p>Ring</p>
+                Smart Home<br>
+                Security Systems
+                <br>
+            </a>
+        </div>
+            <br>
+
+    </div>
+
+</div>
+
+<div class="enddiv">
+    <br><br>
+    <a href="#"> Conditions of Use </a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#"> Privacy Notice </a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#"> Interest-Based Ads </a> &nbsp;&nbsp;&nbsp;&nbsp;
+    © 1996-2022, Amazon.com, Inc. or its affiliates
+    <br><br>
+    Made By: Asmaa Abd El-Nasser<br>
+    May 2022
+    <br><br>
+</div>
+</body>
+</html>

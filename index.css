@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-size: small;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eaeded;
+}
+
+.first_div{
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.second_div{
+    height: 39px;
+    width: 100%;
+    background-color: #232f3e;
+    /* padding-top: 10px; */
+    padding-left: 1em;
+}
+
+#logo{
+    height: 48px;
+    /* margin-left: 1em; */
+}
+
+.fa-location-dot{
+    color: white;
+    margin: 1em;
+}
+
+.first_div>div{
+    align-self: center;
+    align-content: center;
+}
+
+.first_div>div>p{
+    color: white;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.first_div>div:hover
+{
+    border: 1px solid white;
+}
+
+.second_div>ul>li{
+    color: white;
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.5em;
+}
+
+.second_div>ul>li:hover{
+    border: 1px white solid;
+}
+
+/* ----------------------Dynamic pic---------------------------------------- */
+.dynamicpic{
+    width: 100%;
+    /* height: 700px; */
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: center;
+    font-size: 15;
+    padding: 0;
+    /* display: inline-block; */
+    position: relative;
+  }
+  
+  .img{
+    width: 100%;
+    /* height: 400px; */
+    /* float: left; */
+    /* display: block; */
+    padding: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  /* ----------------Arrows------------ */
+  /*------ Next----- */
+  .arrnext{
+    /* float:right; */
+    left: 96%;
+    bottom: 60%;
+    position: absolute;
+    background-color:rgba(126, 119, 119, 0);
+    color: rgb(41, 41, 41);
+    font-size: 6em;
+    border: none;
+  }
+  
+  .arrnext:hover{
+  color: black;
+  /* background-color:rgba(126, 119, 119, 0); */
+  }
+  
+  /* ---Last------ */
+  .arrlast{
+    right: 96%;
+    bottom: 60%;
+    position: absolute;
+    background-color:rgba(126, 119, 119, 0);
+    color: rgb(41, 41, 41);
+    font-size: 6em;
+    border: none;
+  }
+  
+  
+  .arrlast:hover{
+  color: black;
+  /* background-color:rgba(126, 119, 119, 0.726); */
+  }
+  
+  #frontimg{
+    z-index: 1;
+  }
+  
+/*********************************************************************************/
+.thirdblock{
+    width: 100%;
+    min-height: 400px;
+    background-color: #eaeded;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -300px;
+    z-index: 2;
+}
+
+.thirdblock>span{
+    background-color: white;
+    width: 23.5%;
+    z-index: 2;
+    padding: 1em;
+}
+
+.txtinblock{
+    color: black;
+    font-size:1.4em;
+    font-weight: 600;
+}
+
+.inblock{
+    width: 100%;
+    height: 37%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.scrolled_div{
+    height: 270px;
+    box-sizing: border-box;
+    margin: 1.8em;
+    background-color: white;
+    padding: 0.8em 0.8em 0em 0.8em;
+}
+
+.scrolled_items{
+    height: 85%;
+    box-sizing: border-box;
+    /* margin: 2em; */
+    /* background-color: white; */
+    overflow:auto;
+    white-space: nowrap;
+}
+
+.scrolled_items>a{
+    display:inline-block ;
+}
+
+/****************************************Footer***************************************************/
+.totop{
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #37475a;
+    text-align: center;
+    padding: 0.8em;
+}
+
+.totop:hover{
+    background-color: #556679;
+}
+
+.firstfooter_container{
+    background-color: #232f3e;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.firstfooter_container>div>a{
+    text-decoration: none;
+    color: white;
+    line-height: 2.5em;
+}
+
+.firstfooter_container>div>a:hover{
+    text-decoration: underline;
+}
+
+.secondfooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #131a22;
+    min-height: 400px;
+    padding: 0 14em;
+}
+
+.secondfooter>div{
+    width: 10%;
+    /* background-color: #556679; */
+}
+
+.secondfooter>div>div:hover{
+    text-decoration: underline;
+}
+
+.secondfooter>div>div>a{
+    color: rgb(156, 152, 152);
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: 50;
+}
+
+.secondfooter>div>div>a>p{
+    font-weight: 400;
+    font-size: 1.2em;
+    color: white;
+}
+
+.enddiv{
+    background-color: #131a22;
+    text-align: center;
+    color: rgb(233, 232, 232);
+    font-size: 0.85em;
+}
+
+.enddiv>a{
+    text-decoration: none;
+    color: rgb(233, 232, 232);
+    font-size: 1em;
+}
+
+.enddiv>a:hover{
+    text-decoration: underline;
+}
+
+
+
